@@ -1,0 +1,158 @@
+/*Universal Style*/
+body {
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kanit Regular'), local('Kanit-Regular'), url(https://fonts.gstatic.com/s/kanit/v3/5NAKUBdE3Nb95aTaJlZOXQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Kanit Medium'), local('Kanit-Medium'), url(https://fonts.gstatic.com/s/kanit/v3/RHqh14DjcvgZGJknoCzKXvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Kanit Bold'), local('Kanit-Bold'), url(https://fonts.gstatic.com/s/kanit/v3/mEn4jJ-yZGnuuUYbIaJjw_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v18/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+/*Header*/
+
+header {
+  display: flex;
+  height: 4rem;
+  width: 100%;
+  align-items: center;
+}
+
+ nav {
+   width: 100%;
+   text-align: right;
+   margin-right: 1.5rem;
+   font-size: 1.125rem;
+}
+nav li {
+  margin-right: 1rem;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  text-transform: uppercase;
+  font-family: "kanit", sans-serif;
+  font-weight: 500;
+}
+
+.logo-img img {
+  height: 2.5rem;
+  width: auto;
+}
+
+.logo a {
+  color: #c0c0c0;
+}
+.icon {
+  display:none;
+}
+
+ul li {
+  display: inline;
+
+}
+
+/*Banner Section*/
+
+.banner {
+  background-color: #c0c0c0;
+}
+
+.container {
+  display: flex;
+
+}
+
+.img-container{
+  max-width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.banner img {
+  width: 100%;
+
+}
+
+.learn.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 30%;
+  margin-left: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  color: hsl(0, 0%, 20%);
+}
+
+.learn.section h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.learn.section h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.learn.section h1,.learn.section h2 {
+  margin-bottom: 1.5rem;
+
+}
+
+.btn {
+  font-size: 1.125rem;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  text-align: center;
+  width: 80%;
+  padding:.5rem;
+
+
+}

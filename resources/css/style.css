@@ -2,6 +2,7 @@
 body {
   font-size: 16px;
   line-height: 1;
+  font-family: "Roboto", sans-serif;
 }
 
 /* latin */
@@ -66,7 +67,6 @@ header {
 }
 nav li {
   margin-right: 1rem;
-  font-family: "roboto", sans-serif;
   font-weight: 400;
 }
 
@@ -109,15 +109,16 @@ ul li {
 
 .container {
   display: flex;
+  width: 100%;
 
 }
 
-.img-container{
+.banner-img {
   max-width: 60%;
   padding: 2rem 1.5rem;
 }
 
-.banner img {
+.banner-img img {
   width: 100%;
 
 }
@@ -128,15 +129,15 @@ ul li {
   justify-content: center;
   max-width: 30%;
   margin-left: 1.5rem;
-  font-family: "Roboto", sans-serif;
   color: hsl(0, 0%, 20%);
 }
 
-.learn.section h1 {
+h1 {
   font-size: 3.5rem;
   font-weight: 700;
 }
-.learn.section h2 {
+
+h2 {
   font-size: 2rem;
   font-weight: 500;
 }
@@ -154,5 +155,75 @@ ul li {
   width: 80%;
   padding:.5rem;
 
+}
 
+/*Info Section*/
+
+.info.container {
+  display: flex;
+  padding: 2rem 1.5rem;
+}
+
+.section.flex {
+  max-width: 60%;
+  margin-right: 1.5rem;
+}
+
+.info-img img {
+  width: 100%;
+}
+
+.links {
+  display: inline-flex;
+  max-width: 40%;
+  flex-direction: column;
+  border-left: hsl(0, 0%, 88%) solid 1px;
+
+}
+
+.link {
+  padding: 1.5rem;
+}
+.link.Orientation, .link.our-campus, .link.guest {
+  display: inline-flex;
+  align-items: center;
+}
+
+.link.Orientation {
+  border-bottom: hsla(0, 0%, 88%, .5) solid 5px;
+
+}
+
+.link.guest {
+  background-color: hsl(0, 0%, 88%)
+}
+
+.link-img {
+  max-width: 35%;
+}
+
+.link-img img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  width: 65%;
+  margin-left: 1.5rem;
+}
+
+.info h1 {
+  font-size: 3rem;
+}
+.info h1, .info p {
+  margin: 2rem auto 1.5rem auto;
+}
+
+.info p {
+  font-size: 1.125rem;
+}
+
+.links h3 {
+  font-size: 2rem;
+  font-weight: 500;
 }

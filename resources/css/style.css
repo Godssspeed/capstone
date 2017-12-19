@@ -171,6 +171,14 @@ h2 {
   width: 100%;
 }
 
+.text-content {
+  padding-top: 2rem;
+}
+
+.text-content h1, .text-content p, .text-content span {
+  padding-bottom: 1.5rem;
+
+}
 .links {
   display: inline-flex;
   max-width: 40%;
@@ -182,7 +190,7 @@ h2 {
 .link {
   padding: 1.5rem;
 }
-.link.Orientation, .link.our-campus, .link.guest {
+.link.Orientation, .link.our-campus, .link.guest, .link.prototype, .link.now-and-then {
   display: inline-flex;
   align-items: center;
 }
@@ -192,7 +200,7 @@ h2 {
 
 }
 
-.link.guest {
+.link.guest, .link.prototype {
   background-color: hsl(0, 0%, 88%)
 }
 
@@ -278,4 +286,33 @@ padding: 0 4.5rem 0 4.5rem;
 
 .thesis-vid video {
   width:100%;
+}
+
+#exhibit .links {
+  border: none;
+}
+
+#exhibit .text-content {
+  padding: 1.5rem 0 2rem 0;
+}
+
+.text-content h2 {
+  padding-bottom: .5rem;
+}
+
+/*Footer Section*/
+
+footer .container {
+  border-top: hsl(0, 0%, 88%) solid 1px;
+  padding: 1rem 1.5rem 2 1.5rem;
+}
+
+footer .container span {
+  width:100%;
+}
+
+.terms {
+  width: 100%;
+  text-align: right;
+  padding-right: 1.5rem;
 }

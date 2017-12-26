@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"
+   height="128"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="Zeichnung.svg">
+  <defs
+     id="defs4">
+    <filter
+       id="filter3785"
+       inkscape:label="Drop Shadow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Darken the edges with an inner blur"
+       color-interpolation-filters="sRGB"
+       style="color-interpolation-filters:sRGB;"
+       y="-0.10000000000000002"
+       height="1.2"
+       x="-0.10000000000000002">
+      <feGaussianBlur
+         id="feGaussianBlur3787"
+         result="result6"
+         stdDeviation="10.344162011173184 0.01" />
+      <feComposite
+         id="feComposite3789"
+         in2="result6"
+         operator="atop"
+         in="SourceGraphic"
+         result="result8" />
+      <feComposite
+         id="feComposite3791"
+         in2="SourceAlpha"
+         in="result8"
+         operator="atop"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3793" />
+      <feFlood
+         id="feFlood3795"
+         flood-opacity="0.94615384615384612"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite3797"
+         in2="fbSourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur3799"
+         in="composite"
+         stdDeviation="1.5"
+         result="blur" />
+      <feOffset
+         id="feOffset3801"
+         dx="0"
+         dy="1"
+         result="offset" />
+      <feComposite
+         id="feComposite3803"
+         in2="offset"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter3785-1"
+       inkscape:label="Drop Shadow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Darken the edges with an inner blur"
+       color-interpolation-filters="sRGB"
+       y="-0.1"
+       height="1.2"
+       x="-0.1">
+      <feGaussianBlur
+         id="feGaussianBlur3787-7"
+         result="result6"
+         stdDeviation="0.01 0.01" />
+      <feComposite
+         id="feComposite3789-4"
+         in2="result6"
+         operator="atop"
+         in="SourceGraphic"
+         result="result8" />
+      <feComposite
+         id="feComposite3791-0"
+         in2="SourceAlpha"
+         in="result8"
+         operator="atop"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3793-9" />
+      <feFlood
+         id="feFlood3795-4"
+         flood-opacity="1"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite3797-8"
+         in2="fbSourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur3799-8"
+         stdDeviation="1.2"
+         result="blur" />
+      <feOffset
+         id="feOffset3801-2"
+         dx="0"
+         dy="3.6458333333333259"
+         result="offset" />
+      <feComposite
+         id="feComposite3803-4"
+         in2="offset"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="54.561736"
+     inkscape:cy="60.940211"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1279"
+     inkscape:window-height="694"
+     inkscape:window-x="446"
+     inkscape:window-y="72"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadataXXX">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="Copyright 2013 by Rainer Rillke">
+		<cc:license rdf:resource="http://creativecommons.org/ns#PublicDomain" />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Background for App Icons</dc:title>
+      </cc:Work>
+	<cc:License rdf:about="http://creativecommons.org/ns#PublicDomain">
+	   <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+
+	   <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+	   <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+
+	</cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-924.36218)">
+    <path
+       style="fill:#fafafa;fill-opacity:1;stroke:none;filter:url(#filter3785)"
+       d="m 28.857046,928.37885 70.285907,0 c 14.315587,0 25.840407,11.83742 25.840407,26.5413 l 0,66.88415 c 0,14.7038 -11.52482,26.5413 -25.840407,26.5413 l -70.285907,0 c -14.315586,0 -25.8404068,-11.8375 -25.8404068,-26.5413 l 0,-66.88415 c 0,-14.70388 11.5248208,-26.5413 25.8404068,-26.5413 z"
+       id="rect3817" />
+    <path
+       style="fill:#fafafa;fill-opacity:1;stroke:none"
+       d="m 28.496657,925.78943 70.285908,0 c 14.315585,0 25.840405,11.83742 25.840405,26.54131 l 0,66.88406 c 0,14.7039 -11.52482,26.5413 -25.840405,26.5413 l -70.285908,0 c -14.315585,0 -25.8404065,-11.8374 -25.8404065,-26.5413 l 0,-66.88406 c 0,-14.70389 11.5248215,-26.54131 25.8404065,-26.54131 z"
+       id="rect3817-5" />
+  </g>
+</svg>

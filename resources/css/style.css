@@ -3,6 +3,7 @@ body {
   font-size: 16px;
   line-height: 1;
   font-family: "Roboto", sans-serif;
+  color:#423F38;
 }
 
 /* latin */
@@ -57,6 +58,8 @@ header {
   height: 4rem;
   width: 100%;
   align-items: center;
+  background-color: #F1F1F1;
+
 }
 
  nav {
@@ -72,6 +75,16 @@ nav li {
 
 nav li:last-child {
   margin-right: 0;
+}
+
+
+li a:visited {
+  color: ##423F38;
+}
+
+li a:hover {
+  color: #CF9B00;
+  transition: color 200ms ease 100ms;
 }
 
 .logo {
@@ -90,7 +103,7 @@ nav li:last-child {
 }
 
 .logo a {
-  color: #c0c0c0;
+  color: #CF9B00;
 }
 .icon {
   display:none;
@@ -101,16 +114,34 @@ ul li {
 
 }
 
+@media only screen and (max-width: 650px) {
+  nav li {
+    display: none;
+  }
+
+  .truncated-icon {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .icon {
+    display: inline-flex;
+  }
+
+  .logo {
+    display: none;
+  }
+}
+
 /*Banner Section*/
 
-.banner {
-  background-color: #c0c0c0;
+#banner {
+  background-color: #FFDF7E;
 }
 
 .container {
   display: flex;
   padding: 2rem 0 2rem 1.5rem;
-  margin-bottom: 2rem;
 
 }
 
@@ -130,7 +161,7 @@ ul li {
   justify-content: center;
   max-width: 30%;
   margin-left: 1.5rem;
-  color: hsl(0, 0%, 20%);
+
 }
 
 h1 {
@@ -150,7 +181,7 @@ h2 {
 
 .btn {
   font-size: 1.125rem;
-  background-color: hsl(0, 0%, 20%);
+  background-color: #28282E;
   color: white;
   text-align: center;
   width: 80%;
@@ -158,8 +189,54 @@ h2 {
 
 }
 
+.btn a:visited {
+  color: #fff;
+}
+
+.btn a:hover {
+  color: #CF9B00;
+  font-size: 2rem;
+  transition: color 250ms ease 150ms,
+  font-size 500ms ease-out 150ms;
+}
+
+@media only screen and (max-width: 650px) {
+
+  .container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .banner-img {
+    max-width: 100%;
+  }
+
+  .banner-img img {
+    height: auto;
+  }
+
+  .message {
+    max-width: 100%;
+    padding: 2rem 1rem;
+    margin: 0;
+  }
+
+  .btn {
+    max-width: 100%;
+    width: auto;
+  }
+}
+
 /*Info Section*/
 
+#info a:visited {
+  color: #423F38;
+}
+
+#info a:hover {
+  color: #CF9B00;
+  transition: color 200ms ease 100ms;
+}
 
 
 .section.flex {
@@ -201,7 +278,7 @@ h2 {
 }
 
 .link.guest, .link.prototype {
-  background-color: hsl(0, 0%, 88%)
+  background-color: #F1F1F1
 }
 
 .link-img {
@@ -215,7 +292,12 @@ h2 {
 
 .caption {
   width: 65%;
-  margin-left: 1.5rem;
+  padding-left: 1.5rem;
+  line-height: 2rem;
+}
+
+.caption p {
+  padding-top: .5rem;
 }
 
 .info h1 {
@@ -234,10 +316,51 @@ h2 {
   font-weight: 500;
 }
 
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 650px){
+  #info .section.flex {
+    display: none;
+  }
+
+  .link.Orientation, .link.our-campus, .link.guest, .link.prototype, .link.now-and-then {
+    display:inline-block;
+    width: 100%;
+    padding: 1rem 1rem 4rem 1rem;
+  }
+
+  .link-img img {
+    display: none;
+  }
+
+  .links {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .mobile {
+    display: flex;
+}
+
+.link.Orientation {
+  border-bottom: none;
+}
+
+.link.guest {
+  background-color: #fff;
+}
+
+.caption {
+  padding: 2rem 1rem;
+}
+
+}
 /*Learning Section*/
 
 #learn {
-  background-color: hsl(0, 0%, 88%);
+  background-color: #FFDF7E;
   padding-bottom: 2rem;
 
 
@@ -246,6 +369,15 @@ h2 {
 #learn h1, #exhibit h1 {
   text-align: center;
   padding: 2rem 0 1rem 0;
+}
+
+#learn a:visited {
+  color: #423F38;
+}
+
+#learn a:hover {
+  color: #CF9B00;
+  transition: color 200ms ease 100ms;
 }
 
 .courses {
@@ -296,6 +428,15 @@ padding: 0 4.5rem 0 4.5rem;
   padding: 1.5rem 0 2rem 0;
 }
 
+#exhibit a:visited {
+  color: #423F38;
+}
+
+#exhibit a:hover {
+  color: #CF9B00;
+  transition: color 200ms ease 100ms;
+}
+
 .text-content h2 {
   padding-bottom: .5rem;
 }
@@ -315,4 +456,8 @@ footer .container span {
   width: 100%;
   text-align: right;
   padding-right: 1.5rem;
+}
+
+.terms li {
+  padding-right: 1rem;
 }

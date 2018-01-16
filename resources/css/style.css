@@ -114,7 +114,7 @@ ul li {
 
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 768px) {
   nav li {
     display: none;
   }
@@ -200,7 +200,7 @@ h2 {
   font-size 500ms ease-out 150ms;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 768px) {
 
   .container {
     flex-direction: column;
@@ -320,7 +320,7 @@ h2 {
   display: none;
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 768px){
   #info .section.flex {
     display: none;
   }
@@ -333,6 +333,10 @@ h2 {
 
   .link-img img {
     display: none;
+  }
+
+  .link-img {
+    width: 80%;
   }
 
   .links {

@@ -298,6 +298,11 @@ h2 {
 
 .caption p {
   padding-top: .5rem;
+
+}
+
+.caption p:last-child {
+  color: #6BA0D8;
 }
 
 .info h1 {
@@ -327,8 +332,7 @@ h2 {
 
   .link.Orientation, .link.our-campus, .link.guest, .link.prototype, .link.now-and-then {
     display:inline-block;
-    width: 100%;
-    padding: 1rem 1rem 4rem 1rem;
+    padding: 1rem;
   }
 
   .link-img img {
@@ -347,6 +351,10 @@ h2 {
   .mobile {
     display: flex;
 }
+
+  .mobile img {
+    max-width: 100%;
+  }
 
 .link.Orientation {
   border-bottom: none;
@@ -417,6 +425,39 @@ padding: 0 4.5rem 0 4.5rem;
   padding: .5rem 0;
 }
 
+@media only screen and (max-width: 768px){
+
+  #learn {
+    background-color: #fff;
+    border-top: hsl(0, 0%, 88%) solid 1px;
+  }
+
+  .course img, .course span, .course p {
+    display: none;
+  }
+
+  .courses {
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .course {
+    max-width: 100%;
+    padding: 1rem 0 0 0;
+
+
+  }
+
+  .details {
+    height: 1rem;
+    background-color: #FFDF7E;
+    padding: 1rem 1rem 2rem 1rem;
+
+  }
+
+}
+
 /*Thesis Exhibit Section*/
 
 
@@ -445,6 +486,25 @@ padding: 0 4.5rem 0 4.5rem;
   padding-bottom: .5rem;
 }
 
+@media only screen and (max-width: 768px){
+
+  #exhibit {
+    border-top: hsl(0, 0%, 88%) solid 1px;
+  }
+
+  .section.flex {
+    max-width: 100%;
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+
+  .link.prototype, .link.now-and-then, .text-content {
+    display: none;
+  }
+
+
+}
+
 /*Footer Section*/
 
 footer .container {
@@ -464,4 +524,20 @@ footer .container span {
 
 .terms li {
   padding-right: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .copyright {
+    padding: 1rem;
+  }
+
+  .terms {
+    display: none;
+  }
+
+  footer .container {
+    border-top: none;
+  }
+
+
 }
